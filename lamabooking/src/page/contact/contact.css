@@ -1,0 +1,249 @@
+
+.Conatiner{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.topbanner{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    margin: 70px;
+}
+.left_image{
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.center_content{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin-left: -100px;
+}
+.supportcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    flex-direction: column;
+    
+}
+.boxlive{
+    display: flex;
+    border: 1px solid lightgray;
+    
+}
+.box_left{
+    flex: 1;
+    margin: 20px;
+}
+.box_right{
+    flex: 1;
+    margin: 20px;
+}
+.boxTitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contactlogin{
+    width: 100%;
+    border-radius: 3px;
+    border:none;
+    background-color: #0071c2;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px;
+    text-decoration: none;
+    
+}
+
+
+.header404 {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 60px;
+    background-color: #24252A;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top:0;
+  }
+  .nav__container{
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    justify-content: flex-end;
+  
+  }
+  
+  
+  .nav__toggle {
+    color: white;
+    display: inline-flex;
+  }
+  
+  .nav__logo {
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: auto;
+  }
+  
+  .nav__toggle {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+
+.nav__list {
+    text-align: center;
+    display: inline-block;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+  }
+  .nav__item{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav__list li a{
+    transition: all 0.3s ease 0s;
+    font-size: 16PX;
+    
+  }
+  .nav__list li a:hover{
+    color: #0088a9;
+  }
+  .nav__link {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+
+.scTitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.scText{
+    font-weight: 20px;
+    font-size: 14px;
+    margin-left: 150px;
+}
+.button_box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:20px;
+    margin-left:150px;
+    margin-top: 20px;
+}
+
+.item_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.item_box:hover{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+.btnquestion{
+    text-decoration: none;
+    border:none;
+    background-color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.ke_ngang{
+    margin: 10px 150px;
+}
+
+.box_question{
+  margin:20px 200px;
+}
+
+
+.check-list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+
+ 
+}
+
+
+.check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: green;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+.ke_list{
+    color: lightgray;
+   
+}
+.check-list{
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+}
+
+.li_item:hover{
+    background-color: rgb(128, 248, 128);
+    border-radius: 3px;
+}
+.footer_contact{
+    border-top: 0.5px solid lightgray;
+    margin-top: 30px;
+}
+
+.fTitle_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.fTitle{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0071c2;
+}
+.fDesc{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+
